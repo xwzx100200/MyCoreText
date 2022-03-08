@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MyCoreText_Tests' do
+  pod 'MyCoreText', :path => '../'
+  
+  
+end

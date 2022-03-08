@@ -1,0 +1,6 @@
+framework module MyCoreText {
+  umbrella header "MyCoreText-umbrella.h"
+
+  export *
+  module * { export * }
+}

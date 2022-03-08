@@ -1,0 +1,22 @@
+{
+  "name": "MyCoreText",
+  "version": "0.1.0",
+  "summary": "A short description of MyCoreText.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenbc/MyCoreText",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenbc": "chenbc@xiaopeng.com"
+  },
+  "source": {
+    "git": "https://github.com/chenbc/MyCoreText.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MyCoreText/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MyCoreText (0.1.0)
+
+DEPENDENCIES:
+  - MyCoreText (from `../`)
+
+EXTERNAL SOURCES:
+  MyCoreText:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyCoreText: f549ff5cbb6be465558a1619667413fb4d1323fb
+
+PODFILE CHECKSUM: d9b3800ad636615911cc73163617d2f076b5ce0b
+
+COCOAPODS: 1.11.2
