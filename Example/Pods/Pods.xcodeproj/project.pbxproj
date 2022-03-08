@@ -15,7 +15,6 @@
 		0CEC3B499DFFE5B4246703D3E064FDB4 /* DTBase64Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5946BD8C9A1D2D85432E05FDD4E64B68 /* DTBase64Coding.m */; };
 		0D00E50F46039EB5693604A7A93DF89D /* DTCoreTextFontCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 904ADC82AA6570CD40FEC8234F6B873A /* DTCoreTextFontCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D05D7F4DCB9F61664EAB33BD24082BD /* NSFileWrapper+DTCopying.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B2C4CF892CBA86E143E7C8090347B8 /* NSFileWrapper+DTCopying.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D9A7DB38155836DE6BDA7F801C7B722 /* DTWeakSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D007D9E5B0DB60EBF173AD32A7ECF7 /* DTWeakSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10929653AC83286C4C85388A6320473A /* UIApplication+DTNetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D12081B779AF3C3F26BEF21C04B07F8 /* UIApplication+DTNetworkActivity.m */; };
 		1097D9DE1A6C4837BEBD24E814378ACA /* NSString+CSS.m in Sources */ = {isa = PBXBuildFile; fileRef = A36BD14AAAE6EDAB99344722CBD39758 /* NSString+CSS.m */; };
 		112A0954F3D571A69F614D8C579452B3 /* Pods-MyCoreText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F5C0DD0C2230D40E10D13C42B40FE4 /* Pods-MyCoreText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -349,7 +348,6 @@
 		A36BD14AAAE6EDAB99344722CBD39758 /* NSString+CSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CSS.m"; sourceTree = "<group>"; };
 		A3CCA3A35E103D91552357803CE5BC1E /* DTVideoTextAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTVideoTextAttachment.m; sourceTree = "<group>"; };
 		A56AD7DC087FB40950E11B28606B2145 /* MyCoreText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyCoreText-prefix.pch"; sourceTree = "<group>"; };
-		A6D007D9E5B0DB60EBF173AD32A7ECF7 /* DTWeakSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTWeakSupport.h; sourceTree = "<group>"; };
 		A7906901D49DC16369A920362C1D43E7 /* CTLineUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTLineUtils.m; sourceTree = "<group>"; };
 		A7BDDC7DE14FE2F3DC052E31C18817DC /* DTIframeTextAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTIframeTextAttachment.m; sourceTree = "<group>"; };
 		A7DAA1E35233899FDEA2435821893A78 /* NSAttributedString+DTDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+DTDebug.h"; sourceTree = "<group>"; };
@@ -723,7 +721,6 @@
 				B1412C8505CEEAD1801B77023A7D442C /* DTTiledLayerWithoutFade.m */,
 				D011D1AE1305AB22B640B2E33638D6AB /* DTVersion.h */,
 				88D5F9C6D0A0993F434AD4712E49F9EF /* DTVersion.m */,
-				A6D007D9E5B0DB60EBF173AD32A7ECF7 /* DTWeakSupport.h */,
 				28CE742947C205F57B980BB8A6050348 /* NSArray+DTError.h */,
 				1008D5EDEC88607B4548AFAD5778C044 /* NSArray+DTError.m */,
 				4A6E003A2FF2698C67F4BB665FAC5E5A /* NSData+DTCrypto.h */,
@@ -830,8 +827,6 @@
 				2506BBFF6FC753D9FC05BCBE18FE01AD /* DTTiledLayerWithoutFade.h in Headers */,
 				4260FDBB3E22744A4C2288F0DD74C1CE /* DTVersion.h in Headers */,
 				89C16040CCE130563FD140249D1E117E /* DTVideoTextAttachment.h in Headers */,
-				0D9A7DB38155836DE6BDA7F801C7B722 /* DTWeakSupport.h in Headers */,
-				0D9A7DB38155836DE6BDA7F801C7B722 /* DTWeakSupport.h in Headers */,
 				29F91C90C189EADB9D5278A66EE9A7CB /* MyCoreText-umbrella.h in Headers */,
 				3F9748AAB37430AF4783EF67D09D379F /* NSArray+DTError.h in Headers */,
 				8391D80385A2761E5769F60250F915D4 /* NSAttributedString+DTCoreText.h in Headers */,
