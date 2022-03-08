@@ -30,6 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+  s.frameworks   = 'MediaPlayer', 'QuartzCore', 'CoreText', 'CoreGraphics', 'ImageIO'
+
   s.source_files = 'MyCoreText/Classes/**/*'
   
   # s.resource_bundles = {
