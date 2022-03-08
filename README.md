@@ -1,1 +1,2 @@
 # MyCoreText
+这是对DTCoreText的源码重新打包封装，包含了DTFoundation的一些内容
