@@ -45,6 +45,12 @@
 		#define DTCORETEXT_FIX_14684188 1
 	#endif
 
+    #if __IPHONE_OS_VERSION_MAX_ALLOWED > 80400
+    #define DT_SUPPORTED_INTERFACE_ORIENTATIONS_RETURN_TYPE UIInterfaceOrientationMask
+    #else
+    #define DT_SUPPORTED_INTERFACE_ORIENTATIONS_RETURN_TYPE NSUInteger
+    #endif
+
 	// use NSURLSession if NSURLConnection is deprecated
 	#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_9_0
 		#define DTCORETEXT_USES_NSURLSESSION 1
