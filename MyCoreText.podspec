@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MyCoreText' => ['MyCoreText/Assets/*.png']
   # }
+  s.resource_bundles = { 'Resources': 'MyCoreText/Assets/default.css' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
